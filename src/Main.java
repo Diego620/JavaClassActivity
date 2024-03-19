@@ -85,7 +85,7 @@ class Truck extends Vehicle
     public double CalculateRentalCost(int days) {
         if (payloadCapacity > 5)
         {
-            return super.CalculateRentalCost(days) * 1.8;
+            return super.CalculateRentalCost(days) * 1.7;
         }
         else
         {
